@@ -1,0 +1,42 @@
+.hero {
+    min-height: 100vh;
+    padding: 0 5vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: whitesmoke;
+    background-image: linear-gradient(to right, rgb(14, 17, 17), rgb(35, 43, 43));
+    box-sizing: border-box;
+}
+
+.hero div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero h1 {
+    font-size: 3.5vw;
+    letter-spacing: .75vw;
+}
+
+.hero p {
+    font-weight: lighter;
+    letter-spacing: 1.5vw;
+}
+
+.hero pre {
+    font-weight: lighter;
+    letter-spacing: .175vw;
+    margin-top: 3.5vh;
+}
+
+.hero a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.hero a:hover {
+    border-bottom: whitesmoke thin solid;
+}
