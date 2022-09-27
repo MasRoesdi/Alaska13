@@ -3,10 +3,12 @@
     padding: 0 5vw;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     color: whitesmoke;
-    background-image: linear-gradient(to right, rgb(14, 17, 17), rgb(35, 43, 43));
+    background-image: linear-gradient(45deg, rgb(14, 17, 17), rgb(35, 43, 43));
+    background-size: 500%;
     box-sizing: border-box;
+    animation: hero-loop 15s ease infinite;
 }
 
 .hero div {
@@ -22,13 +24,15 @@
 }
 
 .hero p {
+    font-size: 1.1vw;
     font-weight: lighter;
     letter-spacing: 1.5vw;
 }
 
 .hero pre {
+    font-size: 1.1vw;
     font-weight: lighter;
-    letter-spacing: .175vw;
+    letter-spacing: .1vw;
     margin-top: 3.5vh;
 }
 
@@ -39,4 +43,45 @@
 
 .hero a:hover {
     border-bottom: whitesmoke thin solid;
+}
+
+.content {
+    min-height: 100vh;
+    padding: 5vh 5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    color: rgb(14, 17, 17);
+    background-color: rgb(227, 237, 240);
+    box-sizing: border-box;
+}
+
+.content h1 {
+    letter-spacing: .15vw;
+}
+
+.content > div {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.content > div div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@keyframes hero-loop {
+    0% {
+        background-position: 0% 0%;
+    }
+    50% {
+        background-position: 100% 100%;
+    }
+    100% {
+        background-position: 0% 0%;
+    }
 }
