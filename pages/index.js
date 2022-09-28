@@ -1,6 +1,7 @@
 import Head from 'next/head'
-import Link from 'next/link'
+import Image from 'next/image'
 import styles from '../styles/landing.module.css'
+import dummyImg from '../public/download.png'
 
 export default function Home() {
   return (
@@ -18,7 +19,18 @@ export default function Home() {
             <pre>The thirteenth alumni of <a href='http://www.smpistiqomahsambaspbg.sch.id/' target='_blank' rel='noreferrer nofollow'>Istiqomah Sambas Middle School</a></pre>
           </div>
         </div>
-        <div className={styles.content}>
+        <div className={styles.about}>
+          <h1>ABOUT US</h1>
+          <div>
+            <div>
+              <p>Hello there! We are the thirteenth alumni of Istiqomah Sambas Middle School which is located in Central Java, Indonesia. Within 3 years of togetherness, we have formed a solid relationship within each of our members. As of today, we have parted our ways to reach our own goals.</p>
+            </div>
+            <div>
+              <Image src={dummyImg} alt='/'></Image>
+            </div>
+          </div>
+        </div>
+        <div className={styles.rep}>
           <h1>OUR REPRESENTATIVES</h1>
           <div>
             <div>
