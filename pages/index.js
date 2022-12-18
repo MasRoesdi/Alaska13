@@ -3,7 +3,7 @@ import Image from 'next/image'
 import styles from '../styles/landing.module.css'
 import dummyImg from '../public/download.png'
 
-export default function Home() {
+export default function Index() {
   return (
     <div>
       <Head>
@@ -51,6 +51,12 @@ export default function Home() {
             <div></div>
             <div></div>
           </div>
+        </div>
+        <div className={styles.act}>
+          <h1>OUR ACTIVITIES</h1>
+        </div>
+        <div className={styles.ach}>
+          <h1>OUR MEMBER'S ACHIEVEMENTS</h1>
         </div>
       </main>
     </div>

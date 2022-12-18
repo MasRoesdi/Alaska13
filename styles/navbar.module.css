@@ -1,0 +1,64 @@
+.root {
+    min-height: 9vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5vw;
+    box-sizing: border-box;
+    background-color: transparent;
+    z-index: 9999;
+}
+
+.root h3 {
+    font-weight: 300;
+    font-size: 2vw;
+    text-transform: uppercase;
+    letter-spacing: .2vw;
+    color: whitesmoke;
+    transition: 250ms ease-out;
+
+}
+
+.root div {
+    min-width: 30vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.root div a {
+    padding: 1vh 1vw;
+    text-decoration: none;
+    font-size: 1.25vw;
+    font-weight: lighter;
+    letter-spacing: .09vw;
+    color: whitesmoke;
+    transition: 250ms ease-out;
+}
+
+.root div a:hover {
+    color: var(--soft-black);
+    background-color: whitesmoke;
+}
+
+.scrolled {
+    background-color: whitesmoke;
+    box-shadow: 0 -10px 20px 0 var(--soft-black);
+    transition: 250ms ease-out;
+
+}
+
+.scrolled h3, .scrolled div a {
+    color: rgb(14, 17, 17);
+    transition: 250ms ease-out;
+}
+
+.scrolled div a:hover {
+    color: whitesmoke;
+    background-color: var(--soft-black);
+}
+
