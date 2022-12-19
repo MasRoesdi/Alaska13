@@ -1,0 +1,27 @@
+.root {
+    min-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--soft-black);
+}
+
+.root div {
+    min-height: 45vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.root div * {
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: .2vw;
+    color: whitesmoke;
+} 
+
+.root .img {
+    border-radius: 100vh;
+}

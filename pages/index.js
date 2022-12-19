@@ -2,6 +2,8 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/landing.module.css'
 import dummyImg from '../public/download.png'
+import Navbar from '../components/navbar'
+
 
 export default function Index() {
   return (
@@ -11,6 +13,7 @@ export default function Index() {
         <meta name="description" content="A website created for the 13th alumni of istiqomah sambas middle school" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      <Navbar></Navbar>
       <main>
         <div className={styles.hero}>
           <div>

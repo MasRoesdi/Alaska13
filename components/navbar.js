@@ -15,7 +15,7 @@ export default function navbar() {
   }
 
   return (
-    <div className={Style.root} id="navbar">
+    <div className={Style.nav} id="navbar">
         <h3>Alaska '13</h3>
         <div>
             <Link href="/">Home</Link>

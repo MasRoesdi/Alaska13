@@ -1,0 +1,39 @@
+.hero {
+    min-height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--soft-black);
+}
+
+.hero h1 {
+    font-size: 3.5vw;
+    text-transform: uppercase;
+    letter-spacing: .2vw;
+    margin-bottom: 1.5vh;
+    color: whitesmoke;
+}
+
+.hero p {
+    font-weight: 300;
+    font-size: 1.25vw;
+    letter-spacing: .075vw;
+    color: whitesmoke;
+}
+
+.class {
+    min-height: 100vh;
+    padding: 5vh 5vw;
+    box-sizing: border-box;
+    background-color: whitesmoke;
+}
+
+.class h3 {
+    font-weight: 400;
+    font-size: 1.5vw;
+    letter-spacing: .1vw;
+    padding: 3vh 1.25vw;
+    color: whitesmoke;
+    background-color: var(--soft-black);
+}

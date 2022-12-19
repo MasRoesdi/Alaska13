@@ -1,12 +1,8 @@
 import '../styles/main.css'
-import Navbar from '../components/navbar'
 
 function MyApp({ Component, pageProps }) {
   return (
-    <>
-      <Navbar></Navbar>
-      <Component {...pageProps} />
-    </>
+    <Component {...pageProps} />
   )
 }
 
