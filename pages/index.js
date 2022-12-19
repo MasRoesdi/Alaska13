@@ -59,7 +59,7 @@ export default function Index() {
           <h1>OUR ACTIVITIES</h1>
         </div>
         <div className={styles.ach}>
-          <h1>OUR MEMBER'S ACHIEVEMENTS</h1>
+          <h1>OUR MEMBER&apos;S ACHIEVEMENTS</h1>
         </div>
       </main>
     </div>

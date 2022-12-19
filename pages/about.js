@@ -17,7 +17,7 @@ export default function About() {
             <div className={Style.root}>
                 <div>
                     <h1>This website is made by</h1>
-                    <Image src={profileImage} className={Style.img} width="256" height="256"></Image>
+                    <Image src={profileImage} className={Style.img} width="256" height="256" alt="Developer Profile Picture"></Image>
                     <h3>Muhammad Rusdiyanto</h3>
                     <Link href="https://github.com/MasRoesdi"><a target="_blank">Github</a></Link>
                 </div>
