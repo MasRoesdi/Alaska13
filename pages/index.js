@@ -15,14 +15,12 @@ export default function Index() {
       </Head>
       <Navbar></Navbar>
       <main>
-        <div className={styles.hero}>
-          <div>
+        <div className={[styles.container, styles.hero].join(" ")}>
             <p>WELCOME TO</p>
             <h1>ALASKA 13</h1>
-            <pre>The thirteenth alumni of <a href='http://www.smpistiqomahsambaspbg.sch.id/' target='_blank' rel='noreferrer nofollow'>Istiqomah Sambas Middle School</a></pre>
-          </div>
+            <span>The thirteenth alumni of <a href='http://www.smpistiqomahsambaspbg.sch.id/' target='_blank' rel='noreferrer nofollow'>Istiqomah Sambas Middle School</a></span>
         </div>
-        <div className={styles.about}>
+        <div className={[styles.container, styles.about].join(" ")}>
           <h1>ABOUT US</h1>
           <div>
             <div>
@@ -33,7 +31,7 @@ export default function Index() {
             </div>
           </div>
         </div>
-        <div className={styles.rep}>
+        <div className={[styles.container, styles.rep].join(" ")}>
           <h1>OUR REPRESENTATIVES</h1>
           <div>
             <div>
@@ -55,10 +53,10 @@ export default function Index() {
             <div></div>
           </div>
         </div>
-        <div className={styles.act}>
+        <div className={[styles.container, styles.act].join(" ")}>
           <h1>OUR ACTIVITIES</h1>
         </div>
-        <div className={styles.ach}>
+        <div className={[styles.container, styles.ach].join(" ")}>
           <h1>OUR MEMBER&apos;S ACHIEVEMENTS</h1>
         </div>
       </main>

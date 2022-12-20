@@ -28,6 +28,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    transition: 250ms ease;
 }
 
 .nav div a {
@@ -62,3 +63,24 @@
     background-color: var(--soft-black);
 }
 
+@media screen and (max-width: 1099px) {
+    .nav h3 {
+        font-size: 1.5rem;
+    }
+    
+    .nav div a {
+        font-size: .9rem;
+    }
+}
+
+@media screen and (max-width: 849px) {
+    .nav div {
+        min-width: 40vw;
+    }
+}
+
+@media screen and (max-width: 599px) {
+    .nav div {
+        min-width: 50vw;
+    }
+}
