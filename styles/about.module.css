@@ -8,11 +8,12 @@
 }
 
 .root div {
-    min-height: 45vh;
+    min-height: 50vh;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    text-align: center;
 }
 
 .root div * {
@@ -22,6 +23,16 @@
     color: whitesmoke;
 } 
 
+.root div h1 {
+    margin-bottom: 5vh;
+}
+
 .root .img {
     border-radius: 100vh;
+}
+
+@media screen and (max-width: 499px) {
+    .root div h1 {
+        font-size: 1.5rem;
+    }
 }

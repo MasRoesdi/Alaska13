@@ -4,6 +4,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
     background-color: var(--soft-black);
 }
 
@@ -36,4 +37,22 @@
     padding: 3vh 1.25vw;
     color: whitesmoke;
     background-color: var(--soft-black);
+}
+
+@media screen and (max-width: 1349px) {
+    .hero p {
+        padding: 0 10vw;
+        font-size: 1.1rem;
+    }
+
+    .class h3 {
+        font-size: 1.3rem;
+        padding-left: 7.5vw;
+    }
+}
+
+@media screen and (max-width: 1099px) {
+    .hero h1 {
+        font-size: 2.5rem;
+    }
 }
